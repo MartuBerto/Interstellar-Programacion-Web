@@ -1,0 +1,27 @@
+.fotos-personajes-pers{
+    height:500px;
+    width: 900px;
+    border-radius: 20px;
+}
+
+.texto-pers{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+
+.caja-personajes{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 3%;
+   margin: 3% auto;
+   border: 3px solid #60a5fa;
+   border-radius: 15px;
+   box-shadow: 0 0 20px #61a6fab7;
+   background-color: black;
+
+}
+
+

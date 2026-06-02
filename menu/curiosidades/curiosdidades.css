@@ -1,0 +1,9 @@
+.texto-pers{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.contenedor{
+    display: flex;
+    gap: 10px;
+}
