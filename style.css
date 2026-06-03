@@ -1,9 +1,8 @@
 
 
 body {
-    background-image: url('images/descarga\ \(2\).jpg');
-    color: #e2e8f0;
-    text-align: justify;
+    background-image: url(images/fondo.webp);
+    background-repeat: no-repeat;
     font-size: 17px;
     margin: 0;
     padding: 0;
