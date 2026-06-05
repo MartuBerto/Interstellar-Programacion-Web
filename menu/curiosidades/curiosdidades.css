@@ -15,20 +15,21 @@
    width: 100%;
    padding: 20px 30px;
    margin: 30px auto;
-   border: 3px solid #60a5fa;
+   border: 1px;
    border-radius: 15px;
-   box-shadow: 0 0 20px #61a6fab7;
-   background-color: rgba(0, 0, 0, 0.788);
+   box-shadow: 0 0 20px #ffffffde;
+   background-color: rgba(0, 0, 0, 0.76);
 }
 
 .caja-titulo{
    display: flex;
+   align-items: center;
    justify-content: center;
    width: 60%;
    padding: 0;
    margin: 30px auto;
-   border: 3px solid #60a5fa;
+   border: 1px;
    border-radius: 15px;
-   box-shadow: 0 0 20px #61a6fab7;
-   background-color: rgba(0, 0, 0, 0.788);
+   box-shadow: 0 0 20px #ffffffde;
+   background-color: rgba(0, 0, 0, 0.76);
 }
