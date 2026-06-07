@@ -23,31 +23,26 @@
 
 
 .caja-personajes1 {
-   display: flex;
+  display: flex;
    flex-direction: column;
-   justify-items: center;
+   justify-content: flex-start;
    text-align: justify;
-   gap: 20px;
-   min-width: 500px;
-   padding-left: 40px;
-   padding-right: 40px;
-   margin: 15px auto;
+   width: 100%;
+   padding: 20px 30px;
+   margin: 30px auto;
    border: 1px;
    border-radius: 15px;
    box-shadow: 0 0 20px #ffffffde;
-   background-color: rgba(0, 0, 0, 0.616);
-   
+   background-color: rgba(0, 0, 0, 0.76);
+
    figure{
       margin: 0;
       padding-top: 50px;
-   
-     h2{
-        margin: 0;
-
-     }
+      display: flex;
+      justify-content: center;
+      width: 100%;
 
     }
-
 }
 
 .caja-titulo{
