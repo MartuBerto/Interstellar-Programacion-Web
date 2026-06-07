@@ -5,13 +5,19 @@
 
 .contenedor{
     display: flex;
-    gap: 10px;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    
+    h2{
+        margin: 0;
+    }
 }
 
 .caja-curiosidades{
    display: flex;
-   align-items: center;
-   gap: 20px;
+   flex-direction: column;
+   justify-content: flex-start;
    width: 100%;
    padding: 20px 30px;
    margin: 30px auto;
@@ -19,6 +25,7 @@
    border-radius: 15px;
    box-shadow: 0 0 20px #ffffffde;
    background-color: rgba(0, 0, 0, 0.76);
+
 }
 
 .caja-titulo{
