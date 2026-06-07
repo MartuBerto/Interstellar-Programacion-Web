@@ -1,6 +1,6 @@
 .fotos-personajes-pers{
-    height:500px;
-    width: 900px;
+    height:400px;
+    width: 500px;
     border-radius: 20px;
 }
 
@@ -9,21 +9,46 @@
     padding-right: 100px;
 }
 
-
-
-.caja-personajes{
+.contenedor-personajes{
    display: flex;
+   flex-direction: row;
+   gap: 20px;
    justify-content: center;
-   gap: 40px;
+   width: 60%;
+   max-width: 1200px;
+   margin: 0 auto;
    padding: 20px;
-   margin: 30px auto;
+    
+}
+
+
+.caja-personajes1 {
+   display: flex;
+   flex-direction: column;
+   justify-items: center;
+   text-align: justify;
+   gap: 20px;
+   min-width: 500px;
+   padding-left: 40px;
+   padding-right: 40px;
+   margin: 15px auto;
    border: 1px;
    border-radius: 15px;
    box-shadow: 0 0 20px #ffffffde;
    background-color: rgba(0, 0, 0, 0.616);
+   
+   figure{
+      margin: 0;
+      padding-top: 50px;
+   
+     h2{
+        margin: 0;
+
+     }
+
+    }
 
 }
-
 
 .caja-titulo{
    display: flex;
