@@ -45,6 +45,7 @@ body {
 .botones:hover{
     background-color: #61a6faa1;
     padding: 6px 0;
+    transition:  background-color 0.3s ease;
 }
 
 .nav-item{

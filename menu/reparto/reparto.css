@@ -12,23 +12,27 @@
 .contenedor-personajes{
    display: flex;
    flex-direction: row;
-   gap: 20px;
+   gap: 60px;
    justify-content: center;
    width: 60%;
    max-width: 1200px;
    margin: 0 auto;
    padding: 20px;
-    
+ 
 }
 
 
-.caja-personajes1 {
-  display: flex;
+
+
+.caja-personajes {
+   display: flex;
    flex-direction: column;
    justify-content: flex-start;
    text-align: justify;
+   transition: 0.2s ease-in-out;
+   gap: 20px;
    width: 100%;
-   padding: 20px 30px;
+   padding: 20px 40px 20px 40px;
    margin: 30px auto;
    border: 1px;
    border-radius: 15px;
@@ -43,7 +47,13 @@
       width: 100%;
 
     }
+
 }
+
+    .caja-personajes:hover{
+        scale: 1.1;
+    }
+
 
 .caja-titulo{
    display: flex;
