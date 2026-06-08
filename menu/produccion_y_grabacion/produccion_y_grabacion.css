@@ -29,6 +29,7 @@
         padding-top: 20px;
         
     }
+    
 }
 
 .caja-datos-produccion2{
@@ -53,12 +54,13 @@
       width: 100%;
 
     }
-
+   
 }
 
 .caja-datos-produccion2:hover{
     scale: 1.1;
 }
+
 
 .caja-titulo{
    display: flex;
