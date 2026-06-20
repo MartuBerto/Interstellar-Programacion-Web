@@ -6,6 +6,7 @@
     <title>Contacto</title>
     <link rel="icon" href="../../images/favicon-32x32.png">
     <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="contacto.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -25,10 +26,35 @@
  </header>
 
  <main>
-  <!-- Espacio para formularios, etc (2do parcial) -->
+  <h1>Contáctanos</h1>
+  <section>
+  <form action="gracias.html" method="post">
+    <fieldset><span>Datos Personales</span>
+      <div>
+    <label> Nombre:
+    <input type="text" name="nombre_usuario" size="30" minlength="3" required>
+  </label>
+</div>
+<div>
+  <label> Contraseña:
+    <input type="password" name="clave_usuario" size="30" minlength="6" maxlength="25" required >
+  </label>
+</div>
+<div>
+  <label> Correo Electrónico:
+    <input type="email" name="email" required>
+  </label>
+</div>
+<div>
+  <label>Mensaje:
+    <textarea name="Mensaje" cols="40" rows="5" required></textarea>
+  </label>
+    <input type="submit" value="Enviar Mensaje">
+  </div>
+</fieldset>
+  </form>
+</section>
  </main>
-
-     
   <footer>
   <h2>Más Información, Redes y Contacto:</h2>
   <ul class="lista-footer">

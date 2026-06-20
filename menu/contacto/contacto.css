@@ -1,0 +1,9 @@
+fieldset{
+    border: solid 2% rgb(45, 178, 255);
+}
+
+legend span{
+    background: black;
+    align-items: center;
+
+}
