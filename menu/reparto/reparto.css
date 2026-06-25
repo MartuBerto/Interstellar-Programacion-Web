@@ -18,11 +18,7 @@
    max-width: 1200px;
    margin: 0 auto;
    padding: 20px;
- 
 }
-
-
-
 
 .caja-personajes {
    display: flex;
@@ -38,17 +34,15 @@
    border-radius: 15px;
    box-shadow: 0 0 20px #ffffffde;
    background-color: rgba(0, 0, 0, 0.76);
+}
 
-   figure{
+figure{
       margin: 0;
       padding-top: 50px;
       display: flex;
       justify-content: center;
       width: 100%;
-
     }
-
-}
 
     .caja-personajes:hover{
         scale: 1.1;

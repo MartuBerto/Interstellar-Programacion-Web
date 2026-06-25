@@ -23,13 +23,13 @@
    margin: 0 auto;
    padding: 20px;
     
-    h2{
+}
+
+   h2{
         margin: 0;
         padding-top: 20px;
         
     }
-    
-}
 
 .caja-datos-produccion2{
    display: flex;
@@ -44,6 +44,8 @@
    border-radius: 15px;
    box-shadow: 0 0 20px #ffffffde;
    background-color: rgba(0, 0, 0, 0.76);
+   
+}
 
    figure{
       margin: 0;
@@ -53,8 +55,6 @@
       width: 100%;
 
     }
-   
-}
 
 .caja-datos-produccion2:hover{
     scale: 1.1;

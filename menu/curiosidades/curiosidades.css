@@ -9,10 +9,12 @@
     gap: 60px;
     justify-content: center;
     
-    h2{
+
+}
+
+h2{
         margin: 0;
     }
-}
 
 .caja-curiosidades{
    display: flex;

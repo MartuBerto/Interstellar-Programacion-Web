@@ -5,15 +5,17 @@
     
 }
 
+
 .foto-mann-cooper{
     height: 500px;
     width: 900px;
     border-radius: 5px;
 }
 
+
 .foto-murph-cooper{
-    height: 900px;
-    width: 900px;
+    height: 700px;
+    width: 100%;
     border-radius: 5px;
 }
 
@@ -37,25 +39,12 @@
    background-color: rgba(0, 0, 0, 0.76);
 }
 
-.caja-items2{
-   justify-content: center;
-   width: 70%;
-   padding: 30px;
-   margin: 30px auto;
-   border: 1px;
-   border-radius: 15px;
-   box-shadow: 0 0 20px #ffffffde;
-   background-color: rgba(0, 0, 0, 0.76);
-}
-
 
 
 #caja-1{
-   height: 900px;
-   width: 900px;
+   height: 700px;
+   width: 700px;
    margin: 3% auto;
-
-
 }
 
 #caja-2{
@@ -70,22 +59,18 @@
    width: 900px;
    margin: 3% auto;
 
-  
-
 }
 
 #caja-4{
    height: 700px;
    width: 900px;
    margin: 3% auto;
-   
-
 
 }
 
 #caja-5{
-   height: 900px;
-   width: 900px;
+   height: 700px;
+   width: 80%;
    margin: 3% auto;
 
 
