@@ -34,15 +34,3 @@
     scale: 1.1;
 }
 
-.caja-titulo{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   width: 60%;
-   padding: 0;
-   margin: 50px auto;
-   border: 1px;
-   border-radius: 15px;
-   box-shadow: 0 0 20px #ffffffde;
-   background-color: rgba(0, 0, 0, 0.76);
-}
