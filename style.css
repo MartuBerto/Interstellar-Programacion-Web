@@ -95,6 +95,7 @@ a {
 .caja-texto{
    display: flex;
    align-items: center;
+   width: 70%;
    gap: 40px;
    padding: 2%;
    margin: 3% auto;
