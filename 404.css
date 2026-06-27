@@ -3,11 +3,16 @@ div{
         margin: 20px auto;
         padding: 22px;
 }
+p{
+    text-align: center;
+}
 
 .caja-img404{
    border: 3px;
    border-radius: 15px;
    box-shadow: 0 0 20px #ffffff;
    background-color: rgba(0, 0, 0, 0.76);
+   height: 30vw;
+   width: 40vw;
 }
 

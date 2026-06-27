@@ -112,7 +112,7 @@ a {
 
 .poster-interstellar{ 
     height:40vw ;
-    width: 600px;
+    width: 30vw;
     border-radius: 20px;
 }
 
@@ -129,11 +129,12 @@ a {
    border-radius: 10px;
    box-shadow: 0 0 20px #61a6fab7;
    transition: 0.2s ease-in-out;
+   width: 25vw;
 }
 
 #poster{
    height: 40vw;
-   width: 32vw;
+   width: 30vw;
    border: 3px solid #60a5fa;
    border-radius: 10px;
    box-shadow: 0 0 20px #61a6fab7;
