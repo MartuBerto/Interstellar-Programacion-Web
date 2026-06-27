@@ -1,6 +1,6 @@
 .fotos-endurance-agujero-negro{
     height: 400px;
-    width: 500px;
+    width: 20vw;
     border-radius: 5px;
     
 }
@@ -8,7 +8,7 @@
 
 .foto-mann-cooper{
     height: 600px;
-    width: 500px;
+    width: 30vw;
     border-radius: 5px;
     padding: 0;
     margin: 0;
@@ -17,7 +17,7 @@
 
 .foto-murph-cooper{
     height: 600px;
-    width: 500px;
+    width: 25vw;
     border-radius: 5px;
 }
 
@@ -42,11 +42,6 @@
    border-radius: 15px;
    box-shadow: 0 0 20px #ffffffde;
    background-color: rgba(0, 0, 0, 0.76);
-}
-
-.contenedor-imagen{
-   overflow: auto;
-
 }
 
 .contenedor-texto{
