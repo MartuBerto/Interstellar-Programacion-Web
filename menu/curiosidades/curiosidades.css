@@ -6,8 +6,10 @@
 .contenedor{
     display: flex;
     flex-direction: row;
+    width: 70vw;
     gap: 60px;
-    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
     
 
 }
@@ -22,7 +24,7 @@ h2{
    justify-content: flex-start;
    text-align: justify;
    transition: 0.2s ease-in-out;
-   width: 100%;
+   width: 80%;
    padding: 20px 30px;
    margin: 30px auto;
    border: 1px;

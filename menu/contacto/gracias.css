@@ -2,12 +2,9 @@ p{
     text-align: center;
 }
 
-.confirmacion{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 59px
-
-
+div{
+    text-align: center;
+        margin: 20px auto;
+        padding: 22px;
 }
 

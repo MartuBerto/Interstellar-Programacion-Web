@@ -1,8 +1,7 @@
-.contenedor{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+div{
+     text-align: center;
+        margin: 20px auto;
+        padding: 22px;
 }
 
 .caja-img404{
