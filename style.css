@@ -26,7 +26,6 @@ header{
 
 .navegador {
     background-color: #172857;
-    width: 99vw;
     box-sizing: border-box;
     display: flex;
     margin: 0;
@@ -157,7 +156,6 @@ footer {
      padding-bottom: 20px;
      padding-top: 2px;
      margin: 0;
-     width: 99vw;
      
 
 }
