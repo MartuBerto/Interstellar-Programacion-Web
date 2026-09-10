@@ -1,10 +1,12 @@
+/* Mobile First */
+
 body {
     background-image: url(/images/067650.jpg);
     color: white;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-size: 17px;
+    font-size: 1.06rem;
     text-align: justify;
     margin: 0;
     padding: 0;
@@ -28,25 +30,28 @@ header{
     background-color: #172857;
     box-sizing: border-box;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
     margin: 0;
-    padding: 30px;
+    padding: 1rem 0;
     list-style: none;
     justify-content: center;
 }
 
 .nav-item{
-    display: inline-block;
-    margin: 0 20px;
+    margin: 0.3rem;
     padding: 0;
 }
 
 .botones {
+    display: block;
     margin: 0;
     color: white;
     text-decoration: none;
     font-family: Arial, sans-serif;
-    font-size: 22px;
-    padding: 10px 10px;
+    font-size: 0.9rem;
+    padding: 0.5rem;
     border-radius: 4px;
     transition: background-color 0.3s ease;
     font-weight: bold;
@@ -59,9 +64,8 @@ header{
 }
 
 main {
-    margin-left: 100px;
-    margin-right: 100px;
-    padding-bottom: 50px;
+    margin: 0 1rem;
+    padding-bottom: 3.125rem;
 }
 
 h1 {
@@ -69,20 +73,20 @@ h1 {
     text-align: center;
     margin: 0;
     padding: 2%;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: bold;
    
 }
 
 h2 {
     color: #60a5fa;
-    font-size: 25px;
+    font-size: 2.5rem;
     
 }
 
 h3 {
     color: #60a5fa;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 
@@ -95,10 +99,10 @@ a {
 .caja-texto{
    display: flex;
    align-items: center;
-   width: 60vw;
-   gap: 40px;
-   padding: 2%;
-   margin: 3% auto;
+   width: 90%;
+   gap: 1.25rem;
+   padding: 5%;
+   margin: 5% auto;
    border: 1px;
    border-radius: 15px;
    box-shadow: 0 0 20px #ffffffde;
@@ -111,16 +115,18 @@ a {
 }
 
 .poster-interstellar{ 
-    height:40vw ;
-    width: 30vw;
+    height: auto;
+    width: 100%;
     border-radius: 20px;
 }
 
 .multimedia{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    width: 100%;
+    gap: 1.5rem;
     margin: 0,
 }
 
@@ -129,12 +135,15 @@ a {
    border-radius: 10px;
    box-shadow: 0 0 20px #61a6fab7;
    transition: 0.2s ease-in-out;
-   width: 25vw;
+   width: 90%;
+   max-width: 320rem;
+   height: 11.25rem;
 }
 
 #poster{
-   height: 40vw;
-   width: 30vw;
+   height: auto;
+   width: 70%;
+   max-width: 16.25rem;
    border: 3px solid #60a5fa;
    border-radius: 10px;
    box-shadow: 0 0 20px #61a6fab7;
@@ -142,41 +151,37 @@ a {
 }
 
 .trailer:hover{
-    scale: 1.1;
+    scale: 1.05;
 }
 
 #poster:hover{
-    scale: 1.1;
+    scale: 1.05;
 }
 
 footer { 
      background-color: #000000;
      color: #e2e8f0;
      text-align: center;
-     padding-bottom: 20px;
-     padding-top: 2px;
+     padding: 2rem 0;
      margin: 0;
-     
 
 }
 
 footer h2 {
     color: #60a5fa;
-    font-size: 20px;
+    font-size: 1.25rem;
     margin: 0;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 20px;
+    padding-bottom: 1.5rem;
     
     
 }
 
 footer p {
     text-align: center;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-left: 3.125rem;
+    margin-right: 3.125rem;
+    margin-top: 0.938rem;
+    margin-bottom: 0.938rem;
     text-decoration: none;
     
 
@@ -185,14 +190,79 @@ footer p {
 .lista-footer{
     list-style-type: none;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center; 
     justify-content: center;
     flex-direction: row;
-    gap: 15px;
+    gap: 1rem;
     padding: 0;
+    margin: 0 auto;
+    width: 100%;
   
 }
 
+.imagen-footer{
+    width: 2.5rem;
+    height: 2.5rem;
+}
 
+/* Desktop */
 
+@media screen and (min-width: 1024px){
+    .navegador{
+        flex-direction: row;
+        padding: 1.875rem;
+    }
+
+    .nav-item{
+        margin: 0 1.25rem;
+    }
+
+    .botones{
+        font-size: 1.37rem;
+        padding: 0.625rem;
+    }
+
+    main{
+        margin-left: 6.25rem;
+        margin-right: 6.25rem;
+
+    }
+
+    .caja-texto{
+        flex-direction: row;
+        width: 60vw;
+        padding: 2%;
+    }
+
+    .multimedia{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 2.5rem;
+    }
+
+    .poster-interstellar{
+        height: auto;
+        width: 100%;
+    }
+
+    #poster{
+        height: auto;
+        width: 25vw;
+        max-width: 23.75rem;
+
+    }
+
+    .trailer{
+        width: 40vw;
+        max-width: 35rem;
+        height: 19.688rem;
+    }
+
+    .lista-footer{
+        flex-direction: row;
+    }
+}
 
