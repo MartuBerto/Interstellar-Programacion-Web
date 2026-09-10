@@ -1,12 +1,12 @@
+/* Mobile */
 .fotos-personalizadas-prod{
-    height: 500px;
-    width: 30vw;
+    height: auto;
+    width: 100%;
     border-radius: 10px;
 }
 
 .texto-pers{
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 0 1rem;;
 }
 
 .centrado{
@@ -16,18 +16,18 @@
 .contenedor-datos-produccion{
     
     display: flex;
-    flex-direction: row;
-    width: 50vw;
-    gap: 60px;
+    flex-direction: column;
+    width: 90%;
+    gap: 1.5rem;
     justify-content: center;
-   margin: 0 auto;
-   padding: 20px;
+   margin: 0;
+   padding: 1.25rem 0;
     
 }
 
    h2{
         margin: 0;
-        padding-top: 20px;
+        padding-top: 1.5rem;
         
     }
 
@@ -37,9 +37,9 @@
    justify-content: flex-start;
    text-align: justify;
    transition: 0.2s ease-in-out;
-   width: 40vw;
-   padding: 10px 30px;
-   margin: 20px auto;
+   width: 100%;
+   padding: 1.25rem;
+   margin: 1.25rem 0;
    border: 1px;
    border-radius: 15px;
    box-shadow: 0 0 20px #ffffffde;
@@ -47,10 +47,13 @@
    
 }
 
+.caja-datos-produccion h2{
+    font-size: 1.5rem;
+}
 
    figure{
       margin: 0;
-      padding-top: 50px;
+      padding-top: 1.5rem;
       display: flex;
       justify-content: center;
       width: 100%;
@@ -58,7 +61,41 @@
     }
 
 .caja-datos-produccion:hover{
-    scale: 1.1;
+    scale: 1.02;
 }
 
 
+/* Desktop */
+
+@media screen and (min-width: 1024px){
+    .fotos-personalizadas-prod{
+        height: 31.25rem;
+        width: 30vw;
+    }
+
+    .texto-pers{
+        padding-left: 6.25rem;
+        padding-right: 6.25rem;
+    }
+
+    .contenedor-datos-produccion{
+        flex-direction: row;
+        width: 80vw;
+        gap: 3.75rem;
+        padding: 1.25rem;
+    }
+
+    .caja-datos-produccion{
+        width: 40vw;
+        padding: 0.625rem 1.875rem;
+    }
+
+    figure{
+        padding-top: 3.125rem;
+    }
+
+    .caja-datos-produccion:hover{
+        scale: 1.1;
+    }
+
+}
