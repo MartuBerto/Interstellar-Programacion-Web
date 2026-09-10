@@ -1,12 +1,21 @@
+/* Mobile */
 .caja{
-   margin: 0;
-   min-height: 100vh;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   margin: 0;
+   padding: 0;
+   gap: 0.938rem;
+   width: 100%;
+   height: auto;
 }
 
+.imagen-confirmacion{
+    height: auto;
+    width: 100%;
+    padding: 0;
+}
 
 p{
     text-align: center;
@@ -14,8 +23,25 @@ p{
 
 div{
     text-align: center;
-        margin: 20px auto;
-        padding: 20px;
+        margin: 1.25rem auto;
+        padding: 1.25rem;
         
 }
 
+/* Desktop */
+@media screen and (min-width: 1024px){
+
+    .caja{
+   margin: 0;
+   height: auto;
+   width: 100%;
+
+}
+
+
+div{
+        margin: 1.25rem auto;
+        padding: 1.25rem;
+        
+}
+}
