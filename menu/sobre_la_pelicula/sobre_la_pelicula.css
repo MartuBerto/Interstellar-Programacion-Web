@@ -1,5 +1,62 @@
+/* Mobile */
+
 .fotos-endurance-agujero-negro{
-    height: 400px;
+    height: auto;
+    width: 100%;
+    border-radius: 5px;
+    
+}
+
+
+.foto-mann-cooper{
+     height: auto;
+    width: 100%;
+    border-radius: 5px;
+    
+}
+
+
+.foto-murph-cooper{
+     height: auto;
+    width: 100%;
+    border-radius: 5px;
+    
+}
+
+.centrado{
+    text-align: center;
+}
+
+.texto-pers{
+    padding: 0 1rem;
+}
+
+.caja-items{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 1.25rem;
+   width: 90%;
+   padding: 1.5rem;
+   margin: 1.5rem auto;
+   border: 1px;
+   overflow: auto;
+   border-radius: 15px;
+   box-shadow: 0 0 20px #ffffffde;
+   background-color: rgba(0, 0, 0, 0.76);
+}
+
+.contenedor-texto{
+float: left;
+text-align: justify;
+width: 100%;
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1024px){
+    .fotos-endurance-agujero-negro{
+    height: 25rem;
     width: 20vw;
     border-radius: 5px;
     
@@ -16,7 +73,7 @@
 
 
 .foto-murph-cooper{
-    height: 600px;
+    height: 37.5rem;
     width: 25vw;
     border-radius: 5px;
 }
@@ -26,17 +83,17 @@
 }
 
 .texto-pers{
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 6.25rem;
+    padding-right: 6.25rem;
 }
 
 .caja-items{
    display: flex;
    align-items: center;
-   gap: 20px;
+   gap: 1.25rem;
    width: 60vw;
-   padding: 30px;
-   margin: 30px auto;
+   padding: 1.875rem;
+   margin: 1.875rem auto;
    border: 1px;
    overflow: auto;
    border-radius: 15px;
@@ -50,7 +107,7 @@ text-align: justify;
 width: 50%;
 }
 
-
+}
 
 
 
