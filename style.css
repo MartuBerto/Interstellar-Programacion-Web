@@ -5,8 +5,7 @@ body {
     color: white;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: scroll;
+    background-attachment: fixed;
     font-size: 1.06rem;
     text-align: justify;
     margin: 0;
@@ -76,7 +75,7 @@ h1 {
     padding: 2%;
     font-size: 2rem;
     font-weight: bold;
-    padding: 1rem;
+    padding: 1.5rem;
    
 }
 
