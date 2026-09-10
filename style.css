@@ -5,7 +5,8 @@ body {
     color: white;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-position: center center;
+    background-attachment: scroll;
     font-size: 1.06rem;
     text-align: justify;
     margin: 0;
