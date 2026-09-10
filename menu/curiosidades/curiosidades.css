@@ -1,3 +1,5 @@
+/* Mobile */
+
 .texto-pers{
     padding: 0 1rem;
 }
@@ -37,6 +39,8 @@
 .caja-curiosidades:hover{
     scale: 1.02;
 }
+
+/* Desktop */
 
 @media screen and (min-width: 1024px){
     .texto-pers{
