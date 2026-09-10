@@ -1,4 +1,7 @@
 /* Mobile */
+h1{
+    font-size: 2rem;
+}
 
 .fotos-personajes-pers{
     height: auto;
@@ -35,6 +38,10 @@
    border-radius: 15px;
    box-shadow: 0 0 20px #ffffffde;
    background-color: rgba(0, 0, 0, 0.76);
+}
+
+.caja-personajes h2{
+    font-size: 1.5rem;
 }
 
 figure{
