@@ -18,9 +18,9 @@ h1{
    flex-direction: column;
    gap: 1.25rem;
    justify-content: center;
-   width: 90%;
+   width: 100%;
    margin: 0 auto;
-   padding: 1.25rem 0;
+   padding: 0;
 }
 
 .caja-personajes {
@@ -30,9 +30,9 @@ h1{
    text-align: justify;
    transition: 0.2s ease-in-out;
    gap: 1.25rem;
-   width: 110%;
+   width: 100%;
    padding: 1.25rem;
-   margin: 1.5rem auto;
+   margin: 1.5rem 0;
    border: 1px;
    box-sizing: border-box;
    border-radius: 15px;
