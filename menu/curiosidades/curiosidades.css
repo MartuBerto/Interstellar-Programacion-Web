@@ -1,21 +1,21 @@
 .texto-pers{
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 0 1rem;
 }
 
 .contenedor{
     display: flex;
-    flex-direction: row;
-    width: 70vw;
-    gap: 60px;
+    flex-direction: column;
+    width: 90%;
+    gap: 1.5rem;
     text-align: center;
-    margin: 0 auto;
+    margin: 0;
     
 
 }
 
-h2{
-        margin: 0;
+.contenedor h2{
+    font-size: 1.5rem;
+    margin: 0;
     }
 
 .caja-curiosidades{
@@ -24,9 +24,9 @@ h2{
    justify-content: flex-start;
    text-align: justify;
    transition: 0.2s ease-in-out;
-   width: 80%;
-   padding: 20px 30px;
-   margin: 30px auto;
+   width: 100%;
+   padding: 1.25rem;
+   margin: 1.25rem auto;
    border: 1px;
    border-radius: 15px;
    box-shadow: 0 0 20px #ffffffde;
@@ -35,6 +35,31 @@ h2{
 }
 
 .caja-curiosidades:hover{
-    scale: 1.1;
+    scale: 1.02;
 }
 
+@media screen and (min-width: 1024px){
+    .texto-pers{
+      padding-left: 6.25rem;
+      padding-right: 6.25rem;
+    }
+
+    .contenedor{
+        flex-direction: row;
+        width: 80vw;
+        gap: 3.75rem;
+        
+    }
+
+    .caja-curiosidades{
+        padding: 1.25rem 1.875rem;
+        margin: 1.875rem auto;
+
+    }
+
+    .caja-curiosidades:hover{
+        scale: 1.1;
+    }
+
+
+}

@@ -210,6 +210,12 @@ footer p {
 /* Desktop */
 
 @media screen and (min-width: 1024px){
+    .body{
+        background-attachment: fixed;
+        background-position: center center;
+    }
+
+
     .navegador{
         flex-direction: row;
         padding: 1.875rem;
