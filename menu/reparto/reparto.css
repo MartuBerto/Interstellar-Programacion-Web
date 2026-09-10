@@ -1,22 +1,23 @@
+/* Mobile */
+
 .fotos-personajes-pers{
-    height:400px;
-    width: 500px;
+    height: auto;
+    width: 100%;
     border-radius: 20px;
 }
 
 .texto-pers{
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 0 1rem;
 }
 
 .contenedor-personajes{
    display: flex;
-   flex-direction: row;
-   gap: 60px;
+   flex-direction: column;
+   gap: 1.25rem;
    justify-content: center;
-   width: 40vw;
+   width: 90%;
    margin: 0 auto;
-   padding: 20px;
+   padding: 1.25rem 0;
 }
 
 .caja-personajes {
@@ -25,11 +26,12 @@
    justify-content: flex-start;
    text-align: justify;
    transition: 0.2s ease-in-out;
-   gap: 20px;
-   width: 40vw;
-   padding: 20px 40px 20px 40px;
-   margin: 30px auto;
+   gap: 1.25rem;
+   width: 90%;
+   padding: 1.25rem;
+   margin: 1.5rem auto;
    border: 1px;
+   box-sizing: border-box;
    border-radius: 15px;
    box-shadow: 0 0 20px #ffffffde;
    background-color: rgba(0, 0, 0, 0.76);
@@ -37,14 +39,48 @@
 
 figure{
       margin: 0;
-      padding-top: 50px;
+      padding-top: 1.5rem;
       display: flex;
       justify-content: center;
       width: 100%;
     }
 
     .caja-personajes:hover{
-        scale: 1.1;
+        scale: 1.03;
     }
 
+/* Desktop */
 
+@media screen and (min-width: 1024px){
+    .fotos-personajes-pers{
+        width: 31.25rem;
+        height: 25rem;
+
+    }
+
+    .texto-pers{
+        padding-left: 6.25rem;
+        padding-right: 6.25rem;
+    }
+
+    .contenedor-personajes{
+        flex-direction: row;
+        gap: 3.75rem;
+        width: 80vw;
+        padding: 1.25rem;
+    }
+
+    .caja-personajes{
+        width: 40vw;
+        padding: 1.25rem 2.5rem;
+        margin: 1.875rem auto;
+    }
+
+    figure{
+        padding-top: 3.125rem;
+    }
+
+    .caja-personajes:hover{
+        scale: 1.1;
+    }
+}
