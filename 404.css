@@ -1,18 +1,31 @@
-div{
-     text-align: center;
-        margin: 20px auto;
-        padding: 22px;
-}
-p{
-    text-align: center;
+body{
+   margin: 0;
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
 }
 
-.caja-img404{
-   border: 3px;
+.error{
+   text-align: center;
+   gap: 20px;
+   width: 45vw;
+   padding: 30px;
+   margin: 30px auto;
+   border: 1px;
+   font-size: 20px;
+   overflow: auto;
    border-radius: 15px;
-   box-shadow: 0 0 20px #ffffff;
+   box-shadow: 0 0 20px #ffffffde;
    background-color: rgba(0, 0, 0, 0.76);
-   height: 30vw;
-   width: 40vw;
 }
+
+.imagen{
+   width: 15vw;
+   height: auto;
+   display: block;
+   margin: 0 auto;
+}
+
 
