@@ -209,6 +209,11 @@ footer p {
     height: 2.5rem;
 }
 
+#paramount{
+    width: 3rem;
+    height: 2.5rem;
+}
+
 /* Desktop */
 
 @media screen and (min-width: 1024px){
