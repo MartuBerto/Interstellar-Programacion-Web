@@ -4,26 +4,26 @@ h1{
 }
 
 .fotos-endurance-agujero-negro{
-    height: auto;
+    height: 60vw;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 10px;
     
     
 }
 
 
 .foto-mann-cooper{
-     height: auto;
+     height: 60vw;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 10px;
     
 }
 
 
 .foto-murph-cooper{
-    height: auto;
+    height: 60vw;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 10px;
     
 }
 
@@ -41,7 +41,7 @@ h1{
    align-items: center;
    gap: 1.25rem;
    width: 90%;
-   padding: 1.5rem;
+   padding: 1rem 1rem;
    margin: 1.5rem auto;
    border: 1px;
    overflow: auto;
@@ -60,21 +60,27 @@ text-align: justify;
 width: 100%;
 }
 
+audio{
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
 /* Desktop */
 
 @media screen and (min-width: 1024px){
     .fotos-endurance-agujero-negro{
     height: 25rem;
-    width: 20vw;
-    border-radius: 5px;
+    width: 40vw;
+    border-radius: 20px;
     
 }
 
 
 .foto-mann-cooper{
     height: 600px;
-    width: 30vw;
-    border-radius: 5px;
+    width: 40vw;
+    border-radius: 20px;
     padding: 0;
     margin: 0;
 }
@@ -82,8 +88,8 @@ width: 100%;
 
 .foto-murph-cooper{
     height: 37.5rem;
-    width: 25vw;
-    border-radius: 5px;
+    width: 40vw;
+    border-radius: 20px;
 }
 
 .centrado{
@@ -109,6 +115,13 @@ width: 100%;
    background-color: rgba(0, 0, 0, 0.76);
 }
 
+audio{
+    display: block;
+    width: 50%;
+    margin: 1.25rem auto 0 auto;
+    max-width: 31.25rem;
+}
+
 .contenedor-texto{
 float: left;
 text-align: justify;
@@ -116,6 +129,8 @@ width: 100%;
 }
 
 }
+
+
 
 
 
