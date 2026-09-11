@@ -81,7 +81,7 @@ h1 {
 
 h2 {
     color: #60a5fa;
-    font-size: 2.5rem;
+    font-size: 2rem;
     
 }
 
@@ -114,6 +114,7 @@ a {
 .centrado{
     text-align: center;
 }
+
 
 .poster-interstellar{ 
     height: auto;
@@ -213,7 +214,6 @@ footer p {
 @media screen and (min-width: 1024px){
     .body{
         background-attachment: fixed;
-        background-position: center center;
     }
 
 
