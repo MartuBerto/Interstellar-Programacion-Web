@@ -65,7 +65,7 @@ audio{
 
 /* Desktop */
 
-@media screen and (min-width: 1024px){
+@media (min-width: 1024px){
     .fotos-endurance-agujero-negro{
     height: 25rem;
     width: 40vw;

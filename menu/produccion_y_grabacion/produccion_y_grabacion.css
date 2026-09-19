@@ -67,7 +67,7 @@
 
 /* Desktop */
 
-@media screen and (min-width: 1024px){
+@media (min-width: 1024px){
     .fotos-personalizadas-prod{
         height: 31.25rem;
         width: 30vw;

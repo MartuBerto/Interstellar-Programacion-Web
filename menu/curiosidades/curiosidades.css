@@ -42,7 +42,7 @@
 
 /* Desktop */
 
-@media screen and (min-width: 1024px){
+@media (min-width: 1024px){
     .texto-pers{
       padding-left: 6.25rem;
       padding-right: 6.25rem;

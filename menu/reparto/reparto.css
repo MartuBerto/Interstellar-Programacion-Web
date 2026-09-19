@@ -60,7 +60,7 @@ figure{
 
 /* Desktop */
 
-@media screen and (min-width: 1024px){
+@media (min-width: 1024px){
     .fotos-personajes-pers{
         width: 31.25rem;
         height: 25rem;

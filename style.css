@@ -216,7 +216,7 @@ footer p {
 
 /* Desktop */
 
-@media screen and (min-width: 1024px){
+@media (min-width: 1024px){
     .body{
         background-attachment: fixed;
     }

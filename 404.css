@@ -31,7 +31,7 @@ body{
 
 /* Desktop */
 
-@media screen and (min-width: 1024px){
+@media (min-width: 1024px){
    .error{
       width: 40vw;
       max-width: 37.5rem;
