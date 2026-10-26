@@ -12,17 +12,35 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header> 
+  <div id="menu" class="icono-menu">
+    <a href="../../index.html">Inicio</a>
+    <a href="./sobre_la_pelicula.html">Sobre la Película</a>
+    <a href="../reparto/reparto.html">Reparto</a>
+    <a href="../produccion_y_grabacion/produccion_y_grabacion.html">Producción y Grabación</a>
+    <a href="../curiosidades/curiosidades.html">Curiosidades</a>
+  </div>
+
+  <header>
     <nav>
+      <a href="#menu" id="icono-abrir">
+        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" fill="#ffffff">
+          <path d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z"/>
+        </svg>
+      </a>
+      <a href="#" id="icono-cerrar">
+        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" fill="#ffffff">
+          <path d="m251.33-204.67-46.66-46.66L433.33-480 204.67-708.67l46.66-46.66L480-526.67l228.67-228.66 46.66 46.66L526.67-480l228.66 228.67-46.66 46.66L480-433.33 251.33-204.67Z"/>
+        </svg>
+      </a>
       <ul class="navegador">
-       <li class="nav-item"><a href="../../index.html" class="botones">Inicio</a></li>
-       <li class="nav-item"><a href="../sobre_la_pelicula/sobre_la_pelicula.html"   class="botones">Sobre la Película</a></li>
-       <li class="nav-item"><a href="./reparto.html"  class="botones">Reparto</a></li>
-       <li class="nav-item"><a href="../produccion_y_grabacion/produccion_y_grabacion.html"  class="botones"> Produccion y Grabación </a></li>
-       <li class="nav-item"><a href="../curiosidades/curiosidades.html"  class="botones"> Curiosidades </a></li>
+        <li class="nav-item"><a href="../../index.html" class="botones">Inicio</a></li>
+        <li class="nav-item"><a href="./sobre_la_pelicula.html" class="botones">Sobre la Película</a></li>
+        <li class="nav-item"><a href="../reparto/reparto.html" class="botones">Reparto</a></li>
+        <li class="nav-item"><a href="../produccion_y_grabacion/produccion_y_grabacion.html" class="botones">Producción y Grabación</a></li>
+        <li class="nav-item"><a href="../curiosidades/curiosidades.html" class="botones">Curiosidades</a></li>
       </ul>
-      </nav>
- </header>
+    </nav>
+  </header>
 
  <main>
   <article class="texto-pers">
@@ -33,7 +51,9 @@
         <img src="../../images/cooper.jpg" alt="cooper" class="fotos-personajes-pers">
         </figure>
        <h2 class="centrado">Matthew McConaughey como Joseph Cooper</h2>
-        <p >McConaughey interpreta a Cooper, un ex piloto de pruebas de la NASA y brillante ingeniero que, debido a la crisis mundial, se ha visto obligado a trabajar como granjero para asegurar la supervivencia de su familia. Es un hombre de ciencia, pero con un profundo amor por sus hijos, especialmente por su hija Murph. Se convierte en el piloto de la nave Endurance, cargando sobre sus hombros la inmensa responsabilidad de encontrar un nuevo hogar para la humanidad, sabiendo que el viaje le costará un tiempo precioso lejos de su familia.</p>
+        <p class="en-pc">McConaughey interpreta a Cooper, un ex piloto de pruebas de la NASA y brillante ingeniero que, debido a la crisis mundial, se ha visto obligado a trabajar como granjero para asegurar la supervivencia de su familia. Es un hombre de ciencia, pero con un profundo amor por sus hijos, especialmente por su hija Murph. Se convierte en el piloto de la nave Endurance, cargando sobre sus hombros la inmensa responsabilidad de encontrar un nuevo hogar para la humanidad, sabiendo que el viaje le costará un tiempo precioso lejos de su familia.</p>
+
+        <p class="en-celular">McConaughey interpreta a un ex piloto de pruebas de la NASA convertido en granjero por la crisis mundial. Padre devoto, sobre todo de Murph, pilota la Endurance para encontrar un nuevo hogar para la humanidad, aun a costa de dejar a su familia.</p>
       </div>
  
     <div class="caja-personajes" >
@@ -41,7 +61,8 @@
         <img src="../../images/anne hathaway.png" alt="dra brand" class="fotos-personajes-pers">
       </figure>
         <h2 class="centrado">Anne Hathaway como la Dra. Amelia Brand</h2> 
-        <p>Anne Hathaway interpreta a la Dra. Amelia Brand, una brillante científica y bióloga de la NASA. Hija del Profesor Brand, es una de las mentes principales detrás de la Misión Lázaro. Amelia es pragmática y está completamente dedicada a la misión de salvar a la especie humana, incluso si eso significa dejar atrás la Tierra para siempre. A lo largo del viaje, sus convicciones científicas se verán puestas a prueba frente al poder del amor y la conexión humana.</p>
+        <p class="en-pc">Anne Hathaway interpreta a la Dra. Amelia Brand, una brillante científica y bióloga de la NASA. Hija del Profesor Brand, es una de las mentes principales detrás de la Misión Lázaro. Amelia es pragmática y está completamente dedicada a la misión de salvar a la especie humana, incluso si eso significa dejar atrás la Tierra para siempre. A lo largo del viaje, sus convicciones científicas se verán puestas a prueba frente al poder del amor y la conexión humana.</p>
+        <p class="en-celular">Anne Hathaway interpreta a una científica y bióloga de la NASA, hija del Profesor Brand y una de las mentes detrás de la Misión Lázaro. Pragmática y dedicada a salvar a la especie, verá sus convicciones puestas a prueba por el poder del amor.</p>
         </div>
   </section>
 
@@ -51,7 +72,8 @@
         <img src="../../images/profesor brand.jpg" alt="Profesor Brand" class="fotos-personajes-pers">
       </figure>
           <h2 class="centrado">Michael Caine como el Profesor John Brand</h2>
-          <p> El legendario Michael Caine interpreta al Profesor Brand, el director del proyecto secreto de la NASA. Es la mente maestra detrás del plan para salvar a la humanidad utilizando el agujero de gusano. Un hombre que carga con el peso del mundo y con secretos muy oscuros sobre la viabilidad de los diferentes planes de supervivencia (el "Plan A" y el "Plan B"). Es él quien convence a Cooper de emprender este viaje sin retorno asegurado.</p>
+          <p class="en-pc"> El legendario Michael Caine interpreta al Profesor Brand, el director del proyecto secreto de la NASA. Es la mente maestra detrás del plan para salvar a la humanidad utilizando el agujero de gusano. Un hombre que carga con el peso del mundo y con secretos muy oscuros sobre la viabilidad de los diferentes planes de supervivencia (el "Plan A" y el "Plan B"). Es él quien convence a Cooper de emprender este viaje sin retorno asegurado.</p>
+          <p class="en-celular">Caine interpreta al director del proyecto secreto de la NASA y creador del plan para salvar a la humanidad con el agujero de gusano. Guarda oscuros secretos sobre los Planes A y B, y convence a Cooper de partir.</p>
         </div>
      
       <div class = "caja-personajes">
@@ -59,7 +81,8 @@
           <img src="../../images/dr mann.jpg" alt="dr mann" class="fotos-personajes-pers">
         </figure>
          <h2 class="centrado">Matt Damon como el Dr. Mann</h2>
-          <p>Damon interpreta al Dr. Mann, considerado "el mejor de nosotros" por el Profesor Brand. Fue el líder de las misiones originales Lázaro y el primero en cruzar el agujero de gusano años atrás. Su planeta parece ser uno de los más prometedores para albergar vida, pero la tripulación de la Endurance descubrirá que la soledad extrema y la desesperación por sobrevivir pueden quebrar incluso a las mentes más brillantes, convirtiéndolo en un antagonista inesperado en la historia.</p>
+          <p class="en-pc">Damon interpreta al Dr. Mann, considerado "el mejor de nosotros" por el Profesor Brand. Fue el líder de las misiones originales Lázaro y el primero en cruzar el agujero de gusano años atrás. Su planeta parece ser uno de los más prometedores para albergar vida, pero la tripulación de la Endurance descubrirá que la soledad extrema y la desesperación por sobrevivir pueden quebrar incluso a las mentes más brillantes, convirtiéndolo en un antagonista inesperado en la historia.</p>
+          <p class="en-celular">Damon interpreta al líder de las misiones Lázaro y primero en cruzar el agujero de gusano, considerado "el mejor de nosotros". La soledad extrema y la desesperación por sobrevivir lo convierten en un antagonista inesperado.</p>
         </div>
       </section>
  
@@ -69,7 +92,8 @@
         <img src="../../images/murph joven.jpg" alt="murph joven" class="fotos-personajes-pers"> 
        </figure>
        <h2 class="centrado">Mackenzie Foy como Murphy "Murph" Cooper (Joven)</h2>
-       <p>Mackenzie Foy interpreta a la versión infantil de Murph, la hija menor de Cooper. Es una niña extremadamente inteligente, curiosa y muy unida a su padre, con quien comparte la pasión por la ciencia y el espacio. Su habitación se convierte en el epicentro de las anomalías gravitacionales que ella inicialmente cree que son mensajes de "un fantasma". La devastadora separación de su padre cuando él debe partir en la misión Lázaro es uno de los momentos más emotivos y fundamentales de la película, marcando el resentimiento y el motor del personaje para el resto de su vida.</p> 
+       <p class="en-pc">Mackenzie Foy interpreta a la versión infantil de Murph, la hija menor de Cooper. Es una niña extremadamente inteligente, curiosa y muy unida a su padre, con quien comparte la pasión por la ciencia y el espacio. Su habitación se convierte en el epicentro de las anomalías gravitacionales que ella inicialmente cree que son mensajes de "un fantasma". La devastadora separación de su padre cuando él debe partir en la misión Lázaro es uno de los momentos más emotivos y fundamentales de la película, marcando el resentimiento y el motor del personaje para el resto de su vida.</p>
+       <p class="en-celular">Foy interpreta a una niña muy inteligente y curiosa, unida a su padre. Cree que las anomalías de su cuarto son mensajes de un "fantasma". Su separación de Cooper es uno de los momentos más emotivos de la película.</p> 
       </div>
 
        <div class="caja-personajes" >
@@ -77,7 +101,8 @@
             <img src="../../images/murph grande.jpg" alt="murph de adulta" class="fotos-personajes-pers">
          </figure>
          <h2 class="centrado">Jessica Chastain como Murphy "Murph" Cooper (Adulta) </h2>
-            <p>Chastain interpreta a la versión adulta de la hija de Cooper. Heredó la mente brillante y curiosa de su padre. Tras la partida de Cooper, Murph dedica su vida a resolver la ecuación de la gravedad que su padre dejó pendiente, trabajando junto al Profesor Brand en la Tierra. Su resentimiento por el abandono de su padre y su incansable búsqueda de una solución para salvar a los que quedaron en la Tierra son el motor emocional de gran parte de la historia.</p>
+            <p class="en-pc">Chastain interpreta a la versión adulta de la hija de Cooper. Heredó la mente brillante y curiosa de su padre. Tras la partida de Cooper, Murph dedica su vida a resolver la ecuación de la gravedad que su padre dejó pendiente, trabajando junto al Profesor Brand en la Tierra. Su resentimiento por el abandono de su padre y su incansable búsqueda de una solución para salvar a los que quedaron en la Tierra son el motor emocional de gran parte de la historia.</p>
+            <p class="en-celular">Chastain interpreta a la versión adulta de Murph Cooper. Heredó la mente brillante de su padre. Tras su partida, dedica su vida a resolver la ecuación de la gravedad junto al Profesor Brand, movida por el resentimiento y por salvar a quienes quedaron en la Tierra.</p>
         </div>
      </section>
 
@@ -87,7 +112,8 @@
            <img src="../../images/tom cooper joven.jpg" alt="tom cooper de joven" class="fotos-personajes-pers">
           </figure>
            <h2 class="centrado">Timothée Chalamet como Tom Cooper (Joven) </h2> 
-           <p>Chalamet interpreta a la versión adolescente del hijo mayor de Cooper. A diferencia de su hermana Murph, Tom es mucho más pragmático y acepta desde el principio su destino en un mundo agrícola. Se enorgullece de aprender los oficios de la granja y busca constantemente la aprobación de su padre. Aunque la partida de Cooper le duele, él se enfoca en cuidar la tierra y mantener vivo el legado familiar frente a la catástrofe global que se avecina.</p>
+           <p class="en-pc">Chalamet interpreta a la versión adolescente del hijo mayor de Cooper. A diferencia de su hermana Murph, Tom es mucho más pragmático y acepta desde el principio su destino en un mundo agrícola. Se enorgullece de aprender los oficios de la granja y busca constantemente la aprobación de su padre. Aunque la partida de Cooper le duele, él se enfoca en cuidar la tierra y mantener vivo el legado familiar frente a la catástrofe global que se avecina.</p>
+           <p class="en-celular">Chalamet interpreta al hijo mayor de Cooper. Pragmático, acepta su destino en un mundo agrícola. Se enorgullece de aprender los oficios de la granja y busca la aprobación de su padre</p>
         </div>
 
         <div class="caja-personajes">
@@ -95,7 +121,8 @@
            <img src="../../images/tom cooper adulto.jpg" alt="tom cooper de adulto " class="fotos-personajes-pers">
          </figure>
            <h2 class="centrado">Casey Affleck como Tom Cooper (Adulto)</h2>
-            <p>Affleck da vida a Tom en su etapa adulta, habiendo asumido el control total de la granja tras la muerte de su abuelo. Su personaje representa a la humanidad que se resigna a sobrevivir día a día en un mundo que agoniza. Se vuelve un hombre terco y arraigado a su hogar, al punto de poner en riesgo la salud de su propia esposa e hijo debido a las letales tormentas de polvo, negándose a abandonar la casa por la promesa de que su padre algún día regresaría allí.</p>
+            <p class="en-pc">Affleck da vida a Tom en su etapa adulta, habiendo asumido el control total de la granja tras la muerte de su abuelo. Su personaje representa a la humanidad que se resigna a sobrevivir día a día en un mundo que agoniza. Se vuelve un hombre terco y arraigado a su hogar, al punto de poner en riesgo la salud de su propia esposa e hijo debido a las letales tormentas de polvo, negándose a abandonar la casa por la promesa de que su padre algún día regresaría allí.</p>
+            <p class="en-celular">Se hizo cargo de la granja y representa a la humanidad que se resigna a sobrevivir. Terco y arraigado a su hogar, arriesga la salud de su familia por esperar el regreso de su padre.</p>
           </div>
        </section>
  </article>

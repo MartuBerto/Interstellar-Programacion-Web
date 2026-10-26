@@ -10,11 +10,28 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+  <div id="menu" class="icono-menu">
+    <a href="./index.html">Inicio</a>
+    <a href="./menu/sobre_la_pelicula/sobre_la_pelicula.html">Sobre la Película</a>
+    <a href="./menu/reparto/reparto.html">Reparto</a>
+    <a href="./menu/produccion_y_grabacion/produccion_y_grabacion.html">Producción y Grabación</a>
+    <a href="./menu/curiosidades/curiosidades.html">Curiosidades</a>
+  </div>
   <header> 
-    <nav> <!-- Elegí sacar las fotos del menu de navegacion porque no me convencia como quedaba. Ahora que podemos usar cajas y bloques, por eso pense que quedaría mejor asi. -->
+    <nav> 
+       <a href="#menu" id="icono-abrir">
+        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" fill="#ffffff">
+          <path d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z"/>
+        </svg>
+      </a>
+      <a href="#" id="icono-cerrar">
+        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" fill="#ffffff">
+          <path d="m251.33-204.67-46.66-46.66L433.33-480 204.67-708.67l46.66-46.66L480-526.67l228.67-228.66 46.66 46.66L526.67-480l228.66 228.67-46.66 46.66L480-433.33 251.33-204.67Z"/>
+        </svg>
+      </a>
       <ul class="navegador">
         <li class="nav-item"><a href="./index.html"  class="botones"> Inicio </a></li>
-        <li class="nav-item"><a href="./menu/sobre_la_pelicula/sobre_la_pelicula.html"  class="botones"> Sobre la Película</a></li>
+        <li class="nav-item"><a href="./menu/sobre_la_pelicula/sobre_la_pelicula.html" class="botones"> Sobre la Película</a></li>
         <li class="nav-item"><a href="./menu/reparto/reparto.html"  class="botones"> Reparto </a></li>
         <li class="nav-item"><a href="./menu/produccion_y_grabacion/produccion_y_grabacion.html"  class="botones"> Producción y Grabación </a></li>
         <li class="nav-item"><a href="./menu/curiosidades/curiosidades.html" class="botones"> Curiosidades </a></li>
@@ -28,11 +45,13 @@
     <div>
    <h2>Introducción:</h2>
       <h3>El fin de la Tierra no es el fin de nosotros.</h3>
-      <p>Estrenada en 2014 y dirigida por el aclamado cineasta Christopher Nolan, Interstellar se ha consolidado como una de las obras de ciencia ficción más ambiciosas y visualmente deslumbrantes del siglo XXI. Lejos de ser una simple aventura espacial, la película nos sumerge en un futuro distópico y desolador donde la humanidad se enfrenta a su inminente extinción. La Tierra, agotada tras décadas de sobreexplotación, ha dejado de ser un hogar viable; las plagas destruyen las cosechas, las tormentas de polvo asfixian a la población y el oxígeno se agota lentamente. En este contexto de desesperanza, la sociedad ha abandonado los sueños de exploración y el avance tecnológico para enfocarse en la mera supervivencia agrícola.</p>
-    
-      <p>En el centro de esta crisis se encuentra Joseph Cooper, interpretado por Matthew McConaughey, un brillante ex-piloto e ingeniero de la NASA que se ha visto forzado a trabajar como granjero. Viudo y padre de dos hijos, Tom y Murph, Cooper representa la frustración de una generación a la que se le ha prohibido mirar hacia las estrellas. Sin embargo, un extraño fenómeno gravitacional en la habitación de su hija lo llevará a descubrir que los restos de la agencia espacial siguen operando en el más absoluto secreto, trabajando en un último y desesperado intento por salvar a la especie humana.</p>
-      <p>La premisa de Interstellar da un giro monumental cuando a Cooper se le revela que un misterioso agujero de gusano ha aparecido cerca de la órbita de Saturno, actuando como un puente hacia otra galaxia. Reclutado para liderar la tripulación de la nave Endurance junto a la Dra. Amelia Brand (Anne Hathaway) y un par de robots con inteligencia artificial, Cooper deberá dejar atrás a su familia, sabiendo que quizás nunca vuelva a verlos, para adentrarse en lo desconocido. Su misión: encontrar un nuevo mundo habitable antes de que el tiempo en la Tierra se agote.</p>
-      <p>Lo que hace que esta película sea una verdadera obra maestra es su base en la astrofísica real, respaldada por el trabajo del físico teórico y premio Nobel, Kip Thorne. A través de impresionantes representaciones de agujeros negros, planetas con olas del tamaño de montañas y dimensiones incomprensibles para la mente humana, Interstellar explora conceptos fascinantes como la relatividad y la dilatación del tiempo. Pero en el fondo, más allá de la ciencia exacta y los efectos visuales colosales, es una historia profundamente humana que nos plantea una pregunta trascendental: ¿puede el amor, al igual que la gravedad, ser una fuerza capaz de atravesar las barreras del tiempo y el espacio?</p>
+      <p class="en-pc">Estrenada en 2014 y dirigida por el aclamado cineasta Christopher Nolan, Interstellar se ha consolidado como una de las obras de ciencia ficción más ambiciosas y visualmente deslumbrantes del siglo XXI. Lejos de ser una simple aventura espacial, la película nos sumerge en un futuro distópico y desolador donde la humanidad se enfrenta a su inminente extinción. La Tierra, agotada tras décadas de sobreexplotación, ha dejado de ser un hogar viable; las plagas destruyen las cosechas, las tormentas de polvo asfixian a la población y el oxígeno se agota lentamente. En este contexto de desesperanza, la sociedad ha abandonado los sueños de exploración y el avance tecnológico para enfocarse en la mera supervivencia agrícola.</p>
+      <p class="en-pc">En el centro de esta crisis se encuentra Joseph Cooper, interpretado por Matthew McConaughey, un brillante ex-piloto e ingeniero de la NASA que se ha visto forzado a trabajar como granjero. Viudo y padre de dos hijos, Tom y Murph, Cooper representa la frustración de una generación a la que se le ha prohibido mirar hacia las estrellas. Sin embargo, un extraño fenómeno gravitacional en la habitación de su hija lo llevará a descubrir que los restos de la agencia espacial siguen operando en el más absoluto secreto, trabajando en un último y desesperado intento por salvar a la especie humana.</p>
+      <p class="en-pc">La premisa de Interstellar da un giro monumental cuando a Cooper se le revela que un misterioso agujero de gusano ha aparecido cerca de la órbita de Saturno, actuando como un puente hacia otra galaxia. Reclutado para liderar la tripulación de la nave Endurance junto a la Dra. Amelia Brand (Anne Hathaway) y un par de robots con inteligencia artificial, Cooper deberá dejar atrás a su familia, sabiendo que quizás nunca vuelva a verlos, para adentrarse en lo desconocido. Su misión: encontrar un nuevo mundo habitable antes de que el tiempo en la Tierra se agote.</p>
+      <p class="en-pc">Lo que hace que esta película sea una verdadera obra maestra es su base en la astrofísica real, respaldada por el trabajo del físico teórico y premio Nobel, Kip Thorne. A través de impresionantes representaciones de agujeros negros, planetas con olas del tamaño de montañas y dimensiones incomprensibles para la mente humana, Interstellar explora conceptos fascinantes como la relatividad y la dilatación del tiempo. Pero en el fondo, más allá de la ciencia exacta y los efectos visuales colosales, es una historia profundamente humana que nos plantea una pregunta trascendental: ¿puede el amor, al igual que la gravedad, ser una fuerza capaz de atravesar las barreras del tiempo y el espacio?</p>
+
+      <p class="en-celular">Estrenada en 2014 y dirigida por el aclamado cineasta Christopher Nolan, Interstellar se ha consolidado como una de las obras de ciencia ficción más ambiciosas y visualmente deslumbrantes del siglo XXI. Lejos de ser una simple aventura espacial, la película nos sumerge en un futuro distópico y desolador donde la humanidad se enfrenta a su inminente extinción. La Tierra, agotada tras décadas de sobreexplotación, ha dejado de ser un hogar viable; las plagas destruyen las cosechas, las tormentas de polvo asfixian a la población y el oxígeno se agota lentamente. En este contexto de desesperanza, la sociedad ha abandonado los sueños de exploración y el avance tecnológico para enfocarse en la mera supervivencia agrícola.</p>
+      
     </div>
   </article> 
 

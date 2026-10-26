@@ -1,26 +1,28 @@
-/* Mobile */
+/* Desktop */
 h1{
     font-size: 2rem;
 }
 
 .fotos-personajes-pers{
-    height: auto;
-    width: 100%;
+    width: 31.25rem;
+    height: 25rem;
     border-radius: 20px;
+    object-fit: cover;
 }
 
 .texto-pers{
-    padding: 0 1rem;
+    padding: 6.25rem;
+    padding-right: 6.25rem;
 }
 
 .contenedor-personajes{
    display: flex;
-   flex-direction: column;
-   gap: 1.25rem;
+   flex-direction: row;
+   gap: 3.75rem;
    justify-content: center;
-   width: 100%;
+   width: 80%vw;
    margin: 0 auto;
-   padding: 0;
+   padding: 1.25rem;
 }
 
 .caja-personajes {
@@ -30,9 +32,9 @@ h1{
    text-align: justify;
    transition: 0.2s ease-in-out;
    gap: 1.25rem;
-   width: 100%;
-   padding: 1.25rem;
-   margin: 1.5rem 0;
+   width: 40vw;
+   padding: 1.25rem 2.5rem;
+   margin: 1.875rem auto;
    border: 1px;
    box-sizing: border-box;
    border-radius: 15px;
@@ -42,54 +44,60 @@ h1{
 
 .caja-personajes h2{
     font-size: 1.5rem;
+    margin: 0;
+}
+
+.caja-personajes p{
+    margin: 0;
 }
 
 
 
 figure{
       margin: 0;
-      padding-top: 1.5rem;
+      padding-top: 3.125rem;
       display: flex;
       justify-content: center;
       width: 100%;
     }
 
     .caja-personajes:hover{
-        scale: 1.03;
+        scale: 1.1;
     }
 
-/* Desktop */
+/* Mobile */
 
-@media (min-width: 1024px){
+@media (max-width: 768px){
     .fotos-personajes-pers{
-        width: 31.25rem;
-        height: 25rem;
+        width: 100%;
+        height: auto;
 
     }
 
     .texto-pers{
-        padding-left: 6.25rem;
-        padding-right: 6.25rem;
+        margin: 0;
+        padding: 0;
     }
 
     .contenedor-personajes{
-        flex-direction: row;
-        gap: 3.75rem;
-        width: 80vw;
-        padding: 1.25rem;
+        flex-direction: column;
+        gap: 1.125rem;
+        width: 100%;
+        padding: 0;
     }
 
     .caja-personajes{
-        width: 40vw;
-        padding: 1.25rem 2.5rem;
-        margin: 1.875rem auto;
+        width: 100%;
+        padding: 1.25rem;
+        margin: 1.5rem 0;
+        text-align: justify;
     }
 
     figure{
-        padding-top: 3.125rem;
+        padding-top: 1.5rem;
     }
 
     .caja-personajes:hover{
-        scale: 1.1;
+        scale: 1.03;
     }
 }
