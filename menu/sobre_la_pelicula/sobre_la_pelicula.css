@@ -68,7 +68,7 @@ audio{
     box-sizing: border-box;
 }
 
-/* Desktop */
+/* Mobile */
 
 @media (max-width: 768px){
     .fotos-endurance-agujero-negro,
